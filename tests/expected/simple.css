@@ -1,0 +1,11 @@
+body {
+  z-index: 2;
+}
+
+h1 {
+  z-index: 1;
+}
+
+.popup-module {
+  z-index: 0;
+}
