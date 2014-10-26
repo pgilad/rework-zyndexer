@@ -55,7 +55,7 @@ $ npm install --save-dev rework-zyndexer
 
 ## Usage
 
-```
+```js
 var rework = require('rework');
 var zyndexer = require('rework-zyndexer');
 
