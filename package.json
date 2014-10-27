@@ -1,47 +1,47 @@
 {
-    "name": "rework-zyndexer",
-    "version": "0.1.0",
-    "description": "Scale an array preserving order to a discrete or continuous scale",
-    "repository": "pgilad/rework-zyndexer",
-    "license": "MIT",
-    "author": {
-        "name": "Gilad Peleg",
-        "email": "giladp007@gmail.com",
-        "url": "http://giladpeleg.com"
-    },
-    "main": "index.js",
-    "files": [
-        "index.js"
-    ],
-    "engines": {
-        "node": ">=0.10.0"
-    },
-    "scripts": {
-        "test": "mocha ./tests/test.js",
-        "bench": "matcha ./benchmark/bench.js"
-    },
-    "keywords": [
-        "rework",
-        "css",
-        "z-index",
-        "web",
-        "mobile",
-        "replace",
-        "scale",
-        "transform",
-        "style",
-        "optimize",
-        "preprocessor"
-    ],
-    "dependencies": {
-        "lodash.defaults": "^2.4.1",
-        "lodash.pluck": "^2.4.1",
-        "scaler": "^0.2.1"
-    },
-    "devDependencies": {
-        "expect.js": "^0.3.1",
-        "matcha": "^0.5.0",
-        "mocha": "^2.0.1",
-        "rework": "^1.0.1"
-    }
+  "name": "rework-zyndexer",
+  "version": "0.1.1",
+  "description": "Scale an array preserving order to a discrete or continuous scale",
+  "repository": "pgilad/rework-zyndexer",
+  "license": "MIT",
+  "author": {
+    "name": "Gilad Peleg",
+    "email": "giladp007@gmail.com",
+    "url": "http://giladpeleg.com"
+  },
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha ./tests/test.js",
+    "bench": "matcha ./benchmark/bench.js"
+  },
+  "keywords": [
+    "rework",
+    "css",
+    "z-index",
+    "web",
+    "mobile",
+    "replace",
+    "scale",
+    "transform",
+    "style",
+    "optimize",
+    "preprocessor"
+  ],
+  "dependencies": {
+    "lodash.defaults": "^2.4.1",
+    "lodash.pluck": "^2.4.1",
+    "scaler": "^0.2.1"
+  },
+  "devDependencies": {
+    "expect.js": "^0.3.1",
+    "matcha": "^0.5.0",
+    "mocha": "^2.0.1",
+    "rework": "^1.0.1"
+  }
 }
