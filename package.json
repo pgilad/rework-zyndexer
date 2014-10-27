@@ -2,22 +2,20 @@
     "name": "rework-zyndexer",
     "version": "0.1.0",
     "description": "Scale an array preserving order to a discrete or continuous scale",
-    "license": "MIT",
     "repository": "pgilad/rework-zyndexer",
+    "license": "MIT",
     "author": {
         "name": "Gilad Peleg",
         "email": "giladp007@gmail.com",
         "url": "http://giladpeleg.com"
     },
-    "homepage": "https://github.com/pgilad/rework-zyndexer",
-    "bugs": "https://github.com/pgilad/rework-zyndexer/issues",
     "main": "index.js",
-    "engines": {
-        "node": ">=0.10.0"
-    },
     "files": [
         "index.js"
     ],
+    "engines": {
+        "node": ">=0.10.0"
+    },
     "scripts": {
         "test": "mocha ./tests/test.js",
         "bench": "matcha ./benchmark/bench.js"
@@ -33,7 +31,7 @@
         "transform",
         "style",
         "optimize",
-        "preprocess"
+        "preprocessor"
     ],
     "dependencies": {
         "lodash.defaults": "^2.4.1",
