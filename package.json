@@ -34,9 +34,9 @@
     "preprocessor"
   ],
   "dependencies": {
+    "array-scaler": "^0.3.0",
     "lodash.defaults": "^2.4.1",
-    "lodash.pluck": "^2.4.1",
-    "scaler": "^0.2.1"
+    "lodash.pluck": "^2.4.1"
   },
   "devDependencies": {
     "expect.js": "^0.3.1",

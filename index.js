@@ -1,5 +1,5 @@
 'use strict';
-var scaler = require('scaler');
+var scaler = require('array-scaler');
 var pluck = require('lodash.pluck');
 var defaults = require('lodash.defaults');
 
