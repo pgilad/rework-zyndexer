@@ -1,6 +1,6 @@
 # rework-zyndexer [![Build Status](http://img.shields.io/travis/pgilad/rework-zyndexer.svg?style=flat)](https://travis-ci.org/pgilad/rework-zyndexer)
 
-> [Rework](https://github.com/reworkcss/rework) plugin to scale down z-indexes in your stylesheet with ease using [scaler](https://github.com/pgilad/scaler)
+> [Rework](https://github.com/reworkcss/rework) plugin to scale down z-indexes in your stylesheet with ease using [array-scaler](https://github.com/pgilad/array-scaler)
 
 From [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/z-index):
 
@@ -19,7 +19,7 @@ Well, if you write your css (or any preprocessor like less, stylus, sass etc.) w
 or if you just want to prettify your numbers, and especially if you wish to support tablet users such as iPad Air 2 users,
 you can do so with ease.
 
-This is a plugin for [Rework](https://github.com/reworkcss/rework) and uses [scaler](https://github.com/pgilad/scaler) to scale the z-indexes.
+This is a plugin for [Rework](https://github.com/reworkcss/rework) and uses [array-scaler](https://github.com/pgilad/array-scaler) to scale the z-indexes.
 
 Given a sample css file:
 ```css
